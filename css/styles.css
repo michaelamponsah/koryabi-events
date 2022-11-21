@@ -45,5 +45,5 @@ body {
 /* Utility classes */
 .container {
   width: 80%;
-  padding: 0 auto;
+  margin: 0 auto;
 }

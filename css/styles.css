@@ -57,6 +57,14 @@ body {
 }
 
 /* Hero section */
+.hero-section-wrapper {
+  /* background: url("../assets/images/showcase-img.jpg"); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5em 0;
+}
+
 .hero-section {
   padding: 1em 0;
 }

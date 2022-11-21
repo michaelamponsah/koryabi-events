@@ -1,5 +1,8 @@
 :root {
   --font-family-primary: 'Lato', sans-serif;
+  --clr-primary: #ec5242;
+  --clr-dark: #272A31;
+  --crl-light: #d3d3d3;
 }
 
 /* Basic resets */
@@ -40,6 +43,7 @@ img {
 
 body {
   overflow-x: hidden;
+  font-family: var(--font-family-primary);
 }
 
 /* Utility classes */
@@ -50,4 +54,45 @@ body {
 
 .toolbar {
   padding: 1.5em 0;
+}
+
+/* Hero section */
+.hero-section {
+  padding: 1em 0;
+}
+
+.hero-section--headline {
+  color: var(--clr-primary);
+}
+
+.hero-section--headline > span {
+  display: inline-block;
+  margin: 0.5em 0;
+}
+
+.hero-section--headline > h1 {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+
+.hero-section--tagline {
+  margin: 1em 0;
+  color: var(--clr-dark);
+  line-height: 1.3;
+  font-size: 1.18rem;
+  font-weight: 600;
+}
+
+.hero-section--event-details > h3:first-child {
+  font-weight: 900;
+  font-size: 1.3rem;
+  color: var(--clr-dark);
+}
+
+.hero-section--event-details p:nth-child(2) {
+  color: var(--clr-dark);
+  margin-top: 0.6em;
+  font-size: 1rem;
+  font-weight: 500;
 }

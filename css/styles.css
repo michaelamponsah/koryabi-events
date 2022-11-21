@@ -44,6 +44,10 @@ body {
 
 /* Utility classes */
 .container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
+}
+
+.toolbar {
+  padding: 1.5em 0;
 }

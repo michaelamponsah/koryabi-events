@@ -226,3 +226,15 @@ body {
   margin-top: 0.5em;
   width: 25px;
 }
+
+.media-partners {
+  background-color: var(--clr-dark);
+  color: var(--crl-light);
+  padding: 2.5em 0;
+}
+
+.media-partnres--list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}

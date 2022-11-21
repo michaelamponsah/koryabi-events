@@ -1,7 +1,7 @@
 :root {
   --font-family-primary: 'Lato', sans-serif;
   --clr-primary: #ec5242;
-  --clr-dark: #272A31;
+  --clr-dark: #272a31;
   --crl-light: #d3d3d3;
 }
 
@@ -52,6 +52,45 @@ body {
   margin: 0 auto;
 }
 
+.display-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 1em;
+  border: none;
+  background-color: var(--clr-primary);
+  color: var(--crl-light);
+  font-size: 1.3rem;
+  text-align: center;
+  min-width: fit-content;
+  font-weight: 700;
+  font-family: var(--font-family-primary);
+}
+
+.section-title {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.section-title-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 1em 0;
+}
+
+.underline {
+  margin-top: 1em;
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: var(--clr-primary);
+}
+
 .toolbar {
   padding: 1.5em 0;
 }
@@ -73,12 +112,12 @@ body {
   color: var(--clr-primary);
 }
 
-.hero-section--headline > span {
+.hero-section--headline>span {
   display: inline-block;
   margin: 0.5em 0;
 }
 
-.hero-section--headline > h1 {
+.hero-section--headline>h1 {
   text-transform: uppercase;
   font-size: 1.8rem;
   font-weight: 900;
@@ -92,7 +131,7 @@ body {
   font-weight: 600;
 }
 
-.hero-section--event-details > h3:first-child {
+.hero-section--event-details>h3:first-child {
   font-weight: 900;
   font-size: 1.3rem;
   color: var(--clr-dark);
@@ -103,4 +142,41 @@ body {
   margin-top: 0.6em;
   font-size: 1rem;
   font-weight: 500;
+}
+
+/* Programme outline section*/
+
+.programme-outline--wrapper {
+  background-color: var(--clr-dark);
+  color: var(--crl-light);
+  padding: 2em 0;
+}
+
+.program-outline {
+  display: flex;
+  flex-direction: column;
+  align-items: ce;
+}
+
+.programme-outline--list-item {
+  margin: 1em 0;
+  padding: 0.8em;
+  background-color: rgba(211, 211, 211, 0.1);
+  color: var(--crl-light);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.programme-outline--list-item .title-icon-wrapper {
+  margin-right: 1em;
+}
+
+.programme-outline--title {
+  color: var(--clr-primary);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.programme-outline--description {
+  font-size: 1.2rem;
 }

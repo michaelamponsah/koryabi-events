@@ -44,6 +44,7 @@ img {
 body {
   overflow-x: hidden;
   font-family: var(--font-family-primary);
+  background-color: #fff;
 }
 
 /* Utility classes */
@@ -270,4 +271,21 @@ body {
 
 .footer-section ul > li:nth-child(2) {
   opacity: 0.5;
+}
+
+/* Styles for about page */
+.about-hero-section{
+  text-align: center;
+}
+
+.contact-email {
+  display: inline-block;
+  text-decoration: underline;
+  font-weight: 700;
+  opacity: 0.85;
+}
+
+.about-tagline-section {
+  border: 1px solid var(--crl-light);
+  padding: 1em;
 }

@@ -189,6 +189,7 @@ body {
 
 .programme-outline--description {
   font-size: 0.8rem;
+  
 }
 
 /* Speakers section */ 
@@ -200,6 +201,10 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr;
   column-gap: 0.5em;
+}
+
+.speaker-img {
+  /* transform: scale(1, 0.8); */
 }
 
 .speaker-details--speaker-name {

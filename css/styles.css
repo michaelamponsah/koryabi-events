@@ -103,6 +103,10 @@ body {
   padding-right: 0.25em;
 }
 
+.mobile-menu {
+  color: var(--clr-primary);
+}
+
 .toolbar {
   padding: 1.5em 0;
 }

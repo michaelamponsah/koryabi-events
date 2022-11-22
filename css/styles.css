@@ -99,8 +99,8 @@ body {
 }
 
 .icon {
-  width: 30px;
-  height: 30px;
+  font-size: 1.5rem;
+  padding-right: 0.25em;
 }
 
 .toolbar {
@@ -203,10 +203,6 @@ body {
   column-gap: 0.5em;
 }
 
-.speaker-img {
-  /* transform: scale(1, 0.8); */
-}
-
 .speaker-details--speaker-name {
   font-size: 1.3rem;
   color: var(--clr-dark);
@@ -227,12 +223,13 @@ body {
   color: var(--clr-dark);
   font-weight: 500;
   opacity: 0.7;
+  margin-top: 1em;;
 }
 
 .speaker-underline {
   background-color: var(--crl-light);
-  margin-top: 0.5em;
-  width: 25px;
+  margin-top: 1em;
+  width: 30px;
 }
 
 .media-partners {

@@ -1,6 +1,6 @@
 /* eslint-disable linebreak-style */
 import keyNoteSpeakers from './datastore.js';
-import { speakerCardBuilder } from './utils.js';
+import speakerCardBuilder from './speakerCardBuilder.js';
 
 const mobileNavMenu = document.querySelector('.mobile-slider-nav');
 const keynoteSpeakersSection = document.querySelector('.section-speakers--keynote-speakers');

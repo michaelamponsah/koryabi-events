@@ -16,7 +16,7 @@ const keyNoteSpeakers = [
     position: 'Senior Lecturer, Dept. of Geology. University of Alden',
     briefProfile: 'Profile',
     img: {
-      src: './assets/images/speaker-2.png',
+      src: './assets/images/speaker-2.jpg',
       alt: 'Headshot of Dr. Daniel Butchel',
     },
   },
@@ -26,7 +26,7 @@ const keyNoteSpeakers = [
     position: 'Director of Center for Climate Change, University of Ghana',
     briefProfile: 'Profile',
     img: {
-      src: './assets/images/speaker-3.png',
+      src: './assets/images/speaker-3.jpg',
       alt: 'Headshot of Prof. Alex Costa',
     },
   },
@@ -36,7 +36,7 @@ const keyNoteSpeakers = [
     position: 'Director of Center for Climate Change, University of Ghana',
     briefProfile: 'Profile',
     img: {
-      src: './assets/images/speaker-3.png',
+      src: './assets/images/speaker-3.jpg',
       alt: 'Headshot of Prof. Alex Costa',
     },
   },
@@ -46,7 +46,7 @@ const keyNoteSpeakers = [
     position: 'Director of Center for Climate Change, University of Ghana',
     briefProfile: 'Profile',
     img: {
-      src: './assets/images/speaker-3.png',
+      src: './assets/images/speaker-3.jpg',
       alt: 'Headshot of Prof. Alex Costa',
     },
   },
@@ -56,7 +56,7 @@ const keyNoteSpeakers = [
     position: 'Director of Center for Climate Change, University of Ghana',
     briefProfile: 'Profile',
     img: {
-      src: './assets/images/speaker-3.png',
+      src: './assets/images/speaker-3.jpg',
       alt: 'Headshot of Prof. Alex Costa',
     },
   },

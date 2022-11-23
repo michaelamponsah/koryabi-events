@@ -10,7 +10,8 @@ export const speakerCardBuilder = (data) => {
     img,
   } = data;
   const { imgSrc, alt } = img;
-  return `
+
+  const speakerItem = `
   <li class="section-speakers--list-item margin-1" id=${id}>
   <div class="speaker-img-wrapper">
     <img src="${imgSrc}" alt="${alt}" class="speaker-img">
@@ -25,4 +26,6 @@ export const speakerCardBuilder = (data) => {
   </div>
 </li>
   `;
+
+  return speakerItem;
 };

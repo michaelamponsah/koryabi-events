@@ -378,6 +378,8 @@ body {
 
 .about-hero-section {
   text-align: center;
+  /* min-height: 70vh; */
+  margin-top: 5em;
 }
 
 .contact-email {
@@ -388,8 +390,24 @@ body {
 }
 
 .about-tagline-section {
-  border: 1px solid var(--crl-light);
   padding: 1em;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: -0.06em;
+  text-align: center;
+}
+
+.hero-section--event-details p {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 25px;
+  color: #7a7a7a;
+}
+
+.hero-section--event-details  a {
+  color: inherit !important;
+  text-decoration: underline;
 }
 
 /* Our works section */
@@ -511,7 +529,16 @@ body {
   }
 
   .hero-section--event-details p {
-    font-size: 27px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #7a7a7a;
+  }
+
+  .hero-section--event-details  a {
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 25px;
   }
 
   .programme-outline--list {
@@ -570,9 +597,9 @@ body {
   }
 
   /* About us */
-  .about-hero-section {
+  /* .about-hero-section {
     padding: 3em 0;
-  }
+  } */
 
   .our-works--projects-wrapper {
     display: grid;

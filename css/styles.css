@@ -136,6 +136,15 @@ body {
   transition: transform 250ms ease-in 250ms;
 }
 
+.nav-toggler-btn {
+  border: none;
+  background-color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
 .nav-item {
   margin-bottom: 0.5em;
 }

@@ -74,6 +74,13 @@ body {
   width: 250px;
   font-weight: 700;
   font-family: var(--font-family-primary);
+  transform: scale(0.8);
+}
+
+.btn:hover {
+  cursor: pointer;
+  transform: scale(0.95);
+  transition: transform 100ms ease-in 200ms;
 }
 
 .btn-wrapper {
@@ -115,7 +122,12 @@ body {
   padding-right: 0.25em;
 }
 
-.mobile-menu, .slider-menu-close {
+.brand-icon {
+  font-size: 2rem;
+}
+
+.mobile-menu,
+.slider-menu-close {
   color: var(--clr-primary);
 }
 
@@ -168,15 +180,12 @@ body {
 /* Desktop navigation */
 .desktop-nav {
   display: none;
-} 
+}
 
 /* Hero section */
 .hero-section-wrapper {
-  /* background: url("../assets/images/showcase-img.jpg"); */
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   padding: 5em 0;
+  height: 100vh;
 }
 
 .hero-section {
@@ -187,12 +196,12 @@ body {
   color: var(--clr-primary);
 }
 
-.hero-section--headline > span {
+.hero-section--headline>span {
   display: inline-block;
   margin: 0.5em 0;
 }
 
-.hero-section--headline > h1 {
+.hero-section--headline>h1 {
   text-transform: uppercase;
   font-size: 1.8rem;
   font-weight: 900;
@@ -206,7 +215,7 @@ body {
   font-weight: 600;
 }
 
-.hero-section--event-details > h3:first-child {
+.hero-section--event-details>h3:first-child {
   font-weight: 900;
   font-size: 1.3rem;
   color: var(--clr-dark);
@@ -224,7 +233,7 @@ body {
 .programme-outline--wrapper {
   background-color: var(--clr-dark);
   color: var(--crl-light);
-  padding: 2em 0;
+  padding: 5em 0;
 }
 
 .program-outline {
@@ -304,6 +313,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.media-partnres--list-item {
+  margin: 0.5em;
 }
 
 .footer-section {
@@ -314,13 +328,13 @@ body {
   font-size: 1.15rem;
 }
 
-.footer-wrapper > ul {
+.footer-wrapper>ul {
   display: flex;
   justify-content: space-between;
   font-weight: 600;
 }
 
-.footer-section ul > li:nth-child(2) {
+.footer-section ul>li:nth-child(2) {
   opacity: 0.5;
 }
 
@@ -377,7 +391,7 @@ body {
   color: var(--crl-light);
 }
 
-.single-project--details > h4 {
+.single-project--details>h4 {
   font-size: 1.5rem;
   font-weight: 900;
 }
@@ -409,7 +423,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  } 
+  }
+
   .nav--list {
     display: flex;
     align-items: center;
@@ -444,34 +459,70 @@ body {
     cursor: pointer;
     color: var(--crl-light);
     color: #fff;
-    /* background-color: var(--clr-primary); */
     transition: background-color 100ms ease-in 200ms, color 100ms ease-in 200ms;
   }
 
-  .mobile-slider-nav, .hamburger-icon {
+  .mobile-slider-nav,
+  .hamburger-icon {
     display: none;
   }
 
- .programme-outline--list {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  column-gap: 2px;
- }
+  .hero-section--tagline {
+    width: 70%;
+  }
 
- .section-speakers--keynote-speakers {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 20px;
- }
+  .hero-section--headline h1 {
+    font-size: 4rem;
+    font-weight: 900;
+  }
 
- /* About us */
- .about-hero-section {
-  padding: 3em 0;
- }
+  .programme-outline--list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 2px;
+  }
 
- .our-works--projects-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 25px;
- }
+  .programme-outline--list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em 0.5em;
+  }
+
+  .programme-outline--list-item:hover {
+    cursor: pointer;
+  }
+
+  .title-icon-wrapper {
+    flex-direction: column;
+    margin-bottom: 0.8em;
+  }
+
+  .programme-outline--title {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 0.3em;
+  }
+
+  .programme-outline--description {
+    text-align: center;
+  }
+
+  .section-speakers--keynote-speakers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+  }
+
+  /* About us */
+  .about-hero-section {
+    padding: 3em 0;
+  }
+
+  .our-works--projects-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 25px;
+  }
 }

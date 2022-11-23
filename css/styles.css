@@ -36,6 +36,10 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -118,6 +122,7 @@ body {
 /* Nav slider */
 .toolbar {
   padding: 1.5em 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .mobile-slider-nav {
@@ -159,6 +164,11 @@ body {
   display: flex;
   justify-content: flex-end;
 }
+
+/* Desktop navigation */
+.desktop-nav {
+  display: none;
+} 
 
 /* Hero section */
 .hero-section-wrapper {
@@ -379,6 +389,63 @@ body {
 @media screen and (min-width: 768px) {
   .container {
     width: 70%;
+  }
+
+  .logo {
+    color: var(--clr-dark);
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+
+  .logo:hover {
+    cursor: pointer;
+  }
+
+  .logo--sub {
+    color: var(--clr-primary);
+  }
+
+  .desktop-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  } 
+  .nav--list {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-item {
+    margin-left: 1em;
+  }
+
+  .nav--link {
+    color: var(--clr-dark);
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+
+  .nav--link:hover {
+    color: var(--clr-primary);
+  }
+
+  .nav-btn {
+    border: 2px solid var(--clr-primary);
+    background-color: #fff;
+    padding: 0.5em 1em;
+    font-weight: 700;
+  }
+
+  .nav-btn a {
+    color: var(--clr-primary);
+  }
+
+  .nav-btn:hover {
+    cursor: pointer;
+    color: var(--crl-light);
+    color: #fff;
+    /* background-color: var(--clr-primary); */
+    transition: background-color 100ms ease-in 200ms, color 100ms ease-in 200ms;
   }
 
   .mobile-slider-nav, .hamburger-icon {

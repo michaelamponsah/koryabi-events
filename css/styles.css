@@ -131,10 +131,25 @@ body {
   color: var(--clr-primary);
 }
 
+.logo {
+  color: var(--clr-dark);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.logo--sub {
+  color: var(--clr-primary);
+}
+
 /* Nav slider */
 .toolbar {
   padding: 1.5em 0;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.logo-burger-wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 
 .mobile-slider-nav {
@@ -409,18 +424,8 @@ body {
     width: 70%;
   }
 
-  .logo {
-    color: var(--clr-dark);
-    font-weight: 600;
-    font-size: 1.1rem;
-  }
-
   .logo:hover {
     cursor: pointer;
-  }
-
-  .logo--sub {
-    color: var(--clr-primary);
   }
 
   .desktop-nav {
@@ -467,7 +472,7 @@ body {
   }
 
   .mobile-slider-nav,
-  .hamburger-icon {
+  .logo-burger-wrapper {
     display: none;
   }
 

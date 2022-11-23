@@ -396,4 +396,15 @@ body {
   grid-template-columns: 1fr 1fr;
   column-gap: 20px;
  }
+
+ /* About us */
+ .about-hero-section {
+  padding: 3em 0;
+ }
+
+ .our-works--projects-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 25px;
+ }
 }

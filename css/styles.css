@@ -274,7 +274,8 @@ body {
 }
 
 /* Styles for about page */
-.about-hero-section{
+
+.about-hero-section {
   text-align: center;
 }
 
@@ -330,6 +331,6 @@ body {
   font-weight: 900;
 }
 
-.single-project--details > p {
+.project-name {
   font-weight: 500;
 }

@@ -186,6 +186,10 @@ body {
 .hero-section-wrapper {
   padding: 5em 0;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-section {

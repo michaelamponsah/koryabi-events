@@ -13,10 +13,36 @@
 </head>
 
 <body>
-  <header class="toolbar container">
-    <div class="hamburger-icon"><i class="fa-solid fa-bars icon mobile-menu"></i></div>
-    <nav class="nav">
-      <ul class="nav--list"></ul>
+  <header class="toolbar">
+    <div class="hamburger-icon container">
+      <button class="nav-toggler-btn">
+        <i class="fa-solid fa-bars icon mobile-menu" data-nav-menu-btn></i>
+      </button>
+    </div>
+    <nav class="mobile-slider-nav">
+      <div class="container nav--close-icon-wrapper">
+        <i class="fa-solid fa-xmark icon slider-menu-close" data-nav-menu-btn></i>
+      </div>
+      <ul class="nav--list container">
+        <li class="nav-item"><a href="index.html" class="nav--link">Home</a></li>
+        <li class="nav-item"><a href="about.html" class="nav--link">About</a></li>
+        <li class="nav-item"><a href="#" class="nav--link">Programme</a></li>
+        <li class="nav-item"><a href="#" class="nav--link">Join</a></li>
+        <li class="nav-item"><a href="#" class="nav--link">Sponsor</a></li>
+        <li class="nav-item"><a href="#" class="nav--link">News</a></li>
+      </ul>
+    </nav>
+    <nav class="desktop-nav--wrapper">
+      <div class="desktop-nav container">
+        <div><a href="index.html" class="logo">Koryabi <span class="logo--sub">Events</span></a></div>
+        <ul class="nav--list">
+          <li class="nav-item"><a href="about.html" class="nav--link">About</a></li>
+          <li class="nav-item"><a href="#" class="nav--link">Programme</a></li>
+          <li class="nav-item"><a href="#" class="nav--link">Join</a></li>
+          <li class="nav-item"><a href="#" class="nav--link">Sponsor</a></li>
+          <li class="nav-item"><a href="#" class="nav--link">News</a></li>
+        </ul>
+      </div>
     </nav>
   </header>
   <main>
@@ -78,13 +104,14 @@
     <section class="media-partners">
       <div class="media-partners--wrapper container">
         <div class="section-title-wrapper">
-          <h3 class="section-title">Media Partners</h3>
+          <h3 class="section-title">Who we work with</h3>
           <span class="underline"></span>
         </div>
         <ul class="media-partnres--list margin-2">
-          <li class="media-partnres--list-item">1</li>
-          <li class="media-partnres--list-item">2</li>
-          <li class="media-partnres--list-item">3</li>
+          <li class="media-partnres--list-item"><i class="fa-solid fa-tv brand-icon icon"></i> 3News Network</li>
+          <li class="media-partnres--list-item"><i class="fa-solid fa-rectangle-ad brand-icon icon"></i>Ads Corner</li>
+          <li class="media-partnres--list-item"><i class="fa-brands fa-confluence brand-icon icon"></i>Confluence Media
+            House</li>
         </ul>
       </div>
     </section>

@@ -488,14 +488,15 @@ body {
 
   .programme-outline--list {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     column-gap: 2px;
   }
 
   .programme-outline--list-item {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     align-items: center;
     padding: 1.5em 0.5em;
   }

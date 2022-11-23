@@ -2,8 +2,9 @@
 const keyNoteSpeakers = [
   {
     id: 'speaker-1',
-    position: 'Prof. Friedman Lexy',
-    briefProfile: 'Senior Lecturer, Dept. of Geology. University of Ghana',
+    speakerName: 'Prof. Friedman Lexy',
+    position: 'Senior Lecturer, Dept. of Geology. University of Ghana',
+    briefProfile: 'Profile',
     img: {
       src: './assets/images/speaker-1.png',
       alt: 'Headshot of Prof. Friedman Lexy',
@@ -11,8 +12,9 @@ const keyNoteSpeakers = [
   },
   {
     id: 'speaker-2',
-    position: 'Dr. Daniel Butchel',
-    briefProfile: 'Senior Lecturer, Dept. of Geology. University of Alden',
+    speakerName: 'Dr. Daniel Butchel',
+    position: 'Senior Lecturer, Dept. of Geology. University of Alden',
+    briefProfile: 'Profile',
     img: {
       src: './assets/images/speaker-2.png',
       alt: 'Headshot of Dr. Daniel Butchel',
@@ -20,8 +22,9 @@ const keyNoteSpeakers = [
   },
   {
     id: 'speaker-3',
-    position: 'Prof. Alex Costa',
-    briefProfile: 'Director of Center for Climate Change, University of Ghana',
+    speakerName: 'Prof. Alex Costa',
+    position: 'Director of Center for Climate Change, University of Ghana',
+    briefProfile: 'Profile',
     img: {
       src: './assets/images/speaker-3.png',
       alt: 'Headshot of Prof. Alex Costa',
@@ -29,8 +32,9 @@ const keyNoteSpeakers = [
   },
   {
     id: 'speaker-4',
-    position: 'Prof. Alex Costa',
-    briefProfile: 'Director of Center for Climate Change, University of Ghana',
+    speakerName: 'Prof. Alex Costa',
+    position: 'Director of Center for Climate Change, University of Ghana',
+    briefProfile: 'Profile',
     img: {
       src: './assets/images/speaker-3.png',
       alt: 'Headshot of Prof. Alex Costa',
@@ -38,8 +42,9 @@ const keyNoteSpeakers = [
   },
   {
     id: 'speaker-5',
-    position: 'Prof. Alex Costa',
-    briefProfile: 'Director of Center for Climate Change, University of Ghana',
+    speakerName: 'Prof. Alex Costa',
+    position: 'Director of Center for Climate Change, University of Ghana',
+    briefProfile: 'Profile',
     img: {
       src: './assets/images/speaker-3.png',
       alt: 'Headshot of Prof. Alex Costa',
@@ -47,8 +52,9 @@ const keyNoteSpeakers = [
   },
   {
     id: 'speaker-6',
-    position: 'Prof. Alex Costa',
-    briefProfile: 'Director of Center for Climate Change, University of Ghana',
+    speakerName: 'Prof. Alex Costa',
+    position: 'Director of Center for Climate Change, University of Ghana',
+    briefProfile: 'Profile',
     img: {
       src: './assets/images/speaker-3.png',
       alt: 'Headshot of Prof. Alex Costa',

@@ -375,3 +375,25 @@ body {
 .project-name {
   font-weight: 500;
 }
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 70%;
+  }
+
+  .mobile-slider-nav, .hamburger-icon {
+    display: none;
+  }
+
+ .programme-outline--list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 2px;
+ }
+
+ .section-speakers--keynote-speakers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+ }
+}

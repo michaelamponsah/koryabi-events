@@ -291,6 +291,11 @@ body {
 }
 
 /* Our works section */
+.our-works--details {
+  text-align: center;
+  opacity: 0.7;
+}
+
 .projects--single-project {
   margin: 1em 0;
   background: url("../assets/images/showcase-img.jpg");

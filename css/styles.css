@@ -166,7 +166,7 @@ body {
 /* Nav slider */
 .toolbar {
   padding: 1.5em 0;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
   position: fixed;
   top: 0;
   left: 0;
@@ -202,7 +202,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .nav-item {
@@ -243,12 +242,12 @@ body {
   color: var(--clr-primary);
 }
 
-.hero-section--headline>span {
+.hero-section--headline > span {
   display: inline-block;
   margin: 0.5em 0;
 }
 
-.hero-section--headline>h1 {
+.hero-section--headline > h1 {
   text-transform: uppercase;
   font-size: 1.8rem;
   font-weight: 900;
@@ -256,8 +255,6 @@ body {
 
 .hero-section--tagline {
   margin: 1em 0;
-  color: var(--clr-dark);
-  line-height: 1.3;
   font-size: 12px;
   line-height: 17px;
   font-weight: 400;
@@ -276,7 +273,7 @@ body {
 }
 
 .hero-section--event-details p:nth-child(2) {
-  color: #868686;;
+  color: #868686;
   margin-top: 0.6em;
   font-size: 13px;
   font-weight: 700;
@@ -391,13 +388,13 @@ body {
   font-size: 1.15rem;
 }
 
-.footer-wrapper>ul {
+.footer-wrapper > ul {
   display: flex;
   justify-content: space-between;
   font-weight: 600;
 }
 
-.footer-section ul>li:nth-child(2) {
+.footer-section ul > li:nth-child(2) {
   opacity: 0.5;
 }
 
@@ -405,7 +402,6 @@ body {
 
 .about-hero-section {
   text-align: center;
-  /* min-height: 70vh; */
   margin-top: 5em;
 }
 
@@ -425,14 +421,14 @@ body {
   text-align: center;
 }
 
-.hero-section--event-details p {
+.hero-p {
   font-weight: 700;
   font-size: 12px;
   line-height: 25px;
   color: #7a7a7a;
 }
 
-.hero-section--event-details  a {
+.hero-section--event-details a {
   color: inherit !important;
   text-decoration: underline;
 }
@@ -472,7 +468,7 @@ body {
   color: var(--crl-light);
 }
 
-.single-project--details>h4 {
+.single-project--details > h4 {
   font-size: 1.5rem;
   font-weight: 900;
 }
@@ -562,7 +558,7 @@ body {
     color: #7a7a7a;
   }
 
-  .hero-section--event-details  a {
+  .hero-section--event-details a {
     font-weight: 800;
     font-size: 17px;
     line-height: 25px;
@@ -624,10 +620,6 @@ body {
   }
 
   /* About us */
-  /* .about-hero-section {
-    padding: 3em 0;
-  } */
-
   .our-works--projects-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;

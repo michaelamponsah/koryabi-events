@@ -652,7 +652,9 @@ body {
   }
 
   .title-icon-wrapper {
+    display: flex;
     flex-direction: column;
+    align-items: center;
     margin-bottom: 0.8em;
   }
 

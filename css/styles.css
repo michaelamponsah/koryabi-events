@@ -226,6 +226,7 @@ body {
 
 /* Hero section */
 .hero-section-wrapper {
+  margin-top: 8em;
   padding: 5em 0;
   height: 60vh;
   display: flex;
@@ -260,6 +261,8 @@ body {
   font-weight: 400;
   text-align: left;
   color: #515151;
+  border: 1px solid #868686;
+  padding: 1em;
 }
 
 .hero-section--event-details {
@@ -405,7 +408,7 @@ body {
 
 .about-hero-section {
   text-align: center;
-  margin-top: 5em;
+  margin-top: 10em;
 }
 
 .contact-email {

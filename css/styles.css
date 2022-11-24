@@ -265,7 +265,7 @@ body {
   font-weight: 400;
   text-align: left;
   color: #515151;
-  border: 1px solid #868686;
+  border: 1px solid #d3d3d3;
   padding: 1em;
 }
 
@@ -452,7 +452,7 @@ body {
   text-align: center;
   font-weight: 700;
   font-size: 16px;
-  line-height: 21px;;
+  line-height: 21px;
   color: #838383;
 }
 
@@ -522,14 +522,13 @@ body {
     background: #3e3e3e;
     padding: 0.45em 0;
   }
-  
+
   .toolbar--top-nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-   
   }
-  
+
   .top-nav--item {
     margin-left: 1em;
     font-weight: 400;
@@ -537,7 +536,11 @@ body {
     line-height: 14px;
     color: #fff;
   }
-  
+
+  .top-nav--item a {
+    color: #fff;
+  }
+
   .top-nav--item:hover {
     cursor: pointer;
   }
@@ -545,7 +548,6 @@ body {
   .social-icon {
     font-size: 1rem;
   }
-  
 
   .logo:hover {
     cursor: pointer;

@@ -46,6 +46,6 @@ document.addEventListener('click', (e) => {
   }
 
   if (hasMore) {
-    loadMoreSpeakers.style.backgroundColor = 'blue';
+    loadMoreSpeakers.setAttribute('disabled', true);
   }
 });

@@ -499,7 +499,7 @@ body {
     left: 0;
     width: 100%;
     background: #3e3e3e;
-    padding: 0.25em 0;
+    padding: 0.45em 0;
   }
   
   .toolbar--top-nav {
@@ -519,6 +519,10 @@ body {
   
   .top-nav--item:hover {
     cursor: pointer;
+  }
+
+  .social-icon {
+    font-size: 1rem;
   }
   
 

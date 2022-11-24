@@ -302,6 +302,7 @@ body {
 
 .title-icon-wrapper {
   display: flex;
+  align-items: center;
   margin-right: 0.5em;
 }
 

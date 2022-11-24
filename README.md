@@ -28,24 +28,11 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactjs.org/">HTML</a></li>
+    <li><a href="https://reactjs.org/">CSS</a></li>
+    <li><a href="https://reactjs.org/">JavaScript</a></li>
   </ul>
 </details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
 
 ### Key Features <a name="key-features"></a>
 
@@ -60,11 +47,10 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://michaelamponsah.github.io/a-greener-world/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -80,12 +66,13 @@ In order to run this project you should:
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository into your desired folder:
 
 
 
 ```sh
-  cd a-greener-world
+  mkdir my-playground
+  cd my-playground
   git clone git@github.com:michaelamponsah/a-greener-world.git
 ```
 
@@ -120,15 +107,14 @@ To run the project, execute the following command:
 
 👤 **Michael Amponsah**
 
-- GitHub: [@githubhandle](https://github.com/michaelamponsah)
-- Twitter: [@twitterhandle](https://twitter.com/_mikeamponsah)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/mikeamponsah)
+- GitHub: [@michaelamponsah](https://github.com/michaelamponsah)
+- Twitter: [@_mikeamponsah](https://twitter.com/_mikeamponsah)
+- LinkedIn: [michaelamponsah](https://linkedin.com/in/mikeamponsah)
 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -139,7 +125,7 @@ To run the project, execute the following command:
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-My gratitude goes to original designer of the UI used -  [Cindy Shin in Behance.](https://www.behance.net/adagio07)
+My gratitude goes to the original designer of the UI used -  [Cindy Shin in Behance.](https://www.behance.net/adagio07)
 
 
 ## 📝 License <a name="license"></a>

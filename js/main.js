@@ -4,14 +4,16 @@ import { addCardToSection, hasMore } from './utils.js';
 
 const mobileNavMenu = document.querySelector('.mobile-slider-nav');
 const body = document.querySelector('body');
-const loadMoreSpeakers = document.querySelector('[data-load-more-speakers]');
+const loadMoreSpeakersBtn = document.querySelector('[data-load-more-speakers]');
 
+// We keep track of the start and end indexes globally.
+// This ensures the indexes are accessible everywhere
 let startIndex = 0;
 let endIndex = 3;
 const intialCardlist = keyNoteSpeakers.slice(startIndex, endIndex);
 
 window.onload = () => {
-  addCardToSection(loadMoreSpeakers, intialCardlist);
+  addCardToSection(loadMoreSpeakersBtn, intialCardlist);
 };
 
 document.addEventListener('click', (e) => {
@@ -33,7 +35,7 @@ document.addEventListener('click', (e) => {
     body.style.overflow = 'auto';
   }
 
-  if (loadMoreSpeakers) {
+  if (loadMoreSpeakersBtn) {
     if (startIndex === Math.ceil(keyNoteSpeakers.length / 2)) {
       hasMore(false);
       return;
@@ -42,10 +44,10 @@ document.addEventListener('click', (e) => {
     startIndex = endIndex;
     endIndex += 3;
     const cardList = keyNoteSpeakers.slice(startIndex, endIndex);
-    addCardToSection(loadMoreSpeakers, cardList);
+    addCardToSection(loadMoreSpeakersBtn, cardList);
   }
 
   if (hasMore) {
-    loadMoreSpeakers.setAttribute('disabled', true);
+    loadMoreSpeakersBtn.setAttribute('disabled', true);
   }
 });

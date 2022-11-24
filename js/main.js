@@ -1,6 +1,7 @@
 /* eslint-disable linebreak-style */
 import keyNoteSpeakers from './datastore.js';
-import { addCardToSection, hasMore } from './utils.js';
+import speakerCardBuilder from './speakerCardBuilder.js';
+import { addCardToSection, hasMore, isMobileDevice } from './utils.js';
 
 const mobileNavMenu = document.querySelector('.mobile-slider-nav');
 const body = document.querySelector('body');
@@ -13,7 +14,15 @@ let endIndex = 3;
 const intialCardlist = keyNoteSpeakers.slice(startIndex, endIndex);
 
 window.onload = () => {
-  addCardToSection(loadMoreSpeakersBtn, intialCardlist);
+  if (isMobileDevice()) {
+    addCardToSection(loadMoreSpeakersBtn, intialCardlist);
+  } else {
+    loadMoreSpeakersBtn.style.display = 'none';
+    loadMoreSpeakersBtn.setAttribute('disabled', true);
+    keyNoteSpeakers.forEach((speaker) => {
+      loadMoreSpeakersBtn.insertAdjacentHTML('beforebegin', speakerCardBuilder(speaker));
+    });
+  }
 };
 
 document.addEventListener('click', (e) => {
@@ -35,7 +44,7 @@ document.addEventListener('click', (e) => {
     body.style.overflow = 'auto';
   }
 
-  if (loadMoreSpeakersBtn) {
+  if (loadMoreSpeakersBtn && isMobileDevice) {
     if (startIndex === Math.ceil(keyNoteSpeakers.length / 2)) {
       hasMore(false);
       return;

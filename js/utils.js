@@ -10,3 +10,5 @@ export const addCardToSection = (sectionPosition, cardList) => {
 };
 
 export const hasMore = (truthValue) => !truthValue;
+
+export const isMobileDevice = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);

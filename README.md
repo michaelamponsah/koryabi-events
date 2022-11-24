@@ -47,7 +47,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://michaelamponsah.github.io/a-greener-world/)
+- [You may see a live demo here](https://michaelamponsah.github.io/a-greener-world/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

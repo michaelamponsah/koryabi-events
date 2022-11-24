@@ -293,15 +293,18 @@ body {
   flex-direction: column;
 }
 
+.title-icon-wrapper {
+  display: flex;
+  margin-right: 0.5em;
+}
+
 .programme-outline--list-item {
   margin: 1em 0;
   padding: 0.7em;
   background-color: rgba(211, 211, 211, 0.1);
   color: var(--crl-light);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .programme-outline--title {
